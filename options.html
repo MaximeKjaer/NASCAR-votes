@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Options</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'/>
+    <link href='options.css' rel="stylesheet" type="text/css"/>
+
+</head>
+<body>
+<div class="container">
+    <h1>Options</h1>
+    <h2>Where would you like to place the vote counter?</h2>
+    <ul>
+        <li>
+            <input type="radio" name="position" id="top_left"/>
+            <label for="top_left">Top left</label>
+        </li>
+        <li>
+            <input type="radio" name="position" id="top_right"/>
+            <label for="top_right">Top right</label>
+        </li>
+        <li>
+            <input type="radio" name="position" id="bottom_left"/>
+            <label for="bottom_left">Bottom left</label>
+        </li>
+        <li>
+            <input type="radio" name="position" id="bottom_right" checked="true"/>
+            <label for="bottom_right">Bottom right</label>
+        </li>
+        <li>
+            <input type="radio" name="position" id="custom"/>
+            <label for="custom">Custom CSS:</label><br/>
+            <textarea id="custom_css" style="height: 200px; width: 100%;"></textarea>
+
+    </ul>
+    <h2>Reset the vote count</h2>
+    <input type="button" id="reset" value="Reset the vote count">
+</div>
+     
+<script type="text/javascript" src="options.js"></script>
+
+</body>
+</html>

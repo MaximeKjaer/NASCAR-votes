@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(fonts/lato400.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(fonts/lato700.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Flat-UI-Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Flat UI'), local('Flat-UI'), url(fonts/Flat-UI-Icons.woff) format('woff');
+}
+
+::selection {
+	background: #d78965;
+	color: white;
+}
+.container {
+	width: 50%;
+	float:left;
+	margin: 0 25% 20px 25%;
+	padding: 0;
+}
+body {
+	font-family: 'Lato', sans-serif;
+	background-color:rgb(250,250,250);
+	color: #34495E;
+	font-size: 75%;
+	background-image:url(tiny_grid/tiny_grid.png);
+}
+
+label {
+	font-weight: bold;
+	line-height: 1.35em;
+	cursor: pointer;
+}
+
+.title {
+	text-align: center;
+	font-size: 85px;
+	letter-spacing: -3px;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 80px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+
+ul {
+	list-style: none;
+}
+
+
+li {
+	font-size: 18px;
+	line-height: 32px;
+}
+
+
+
+a {
+	color: #16a085;
+}
+
+a:hover {
+	opacity: 0.8;
+	text-decoration: none;
+}
