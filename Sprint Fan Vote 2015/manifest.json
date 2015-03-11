@@ -1,0 +1,29 @@
+{
+ "name": "The Shibe's Voting Companion",
+ "version": "3.1",
+ "content_security_policy": "script-src 'self'; object-src 'self'",
+ "manifest_version": 2,
+ 
+ "description": "Reminds you to vote for various Dogecoin-related votes. Like a secret agent, you will be offered different voting missions!",
+
+"icons": {
+   "16":  "images/icon16.png",
+   "48":  "images/icon48.png",
+   "128": "images/icon128.png"
+ },
+"browser_action": {
+	"default_icon": "images/icon19.png",
+	"default_title": "The Shibe's Voting Companion",
+	"default_popup": "popup.html"
+  },
+ "background": {
+	"scripts": ["background.js"]
+ },
+ "permissions": [
+     "notifications",
+     "webRequest",
+     "*://sprintfanvote.nascar.com/*",
+     "*://e1.votenow.tv/*",
+     "*://n3.telescope.tv/*"
+ ]
+}
